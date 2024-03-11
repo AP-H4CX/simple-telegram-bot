@@ -24,7 +24,7 @@ def reply(update: Update, context: CallbackContext) -> None:
 
 
 def main():
-    api = "5955133468:AAE_OwbAUagQ1k5OEMBARoq_GRPG5FJyjb8"
+    api = "6481223949:AAFuYF7BY1NLRZvcLU13F0xDrjrY_aAeu8c"
     updater = Updater(api, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start', start))
